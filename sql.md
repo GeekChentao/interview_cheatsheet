@@ -14,3 +14,9 @@ return the substring of a value
 TO_CHAR(arg_date, fmt)
 ```
 convert the value to string in varchar in fmt format and return
+
+```
+date + interval '1 day'
+date + interval '2 month'
+```
+increament date by interval
