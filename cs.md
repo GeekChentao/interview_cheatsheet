@@ -10,11 +10,22 @@ if (enum is not null){}
 cast the obj to IEnmerable
 
 ```cs
+Queue<int> queue = new Queue<int>();
+Queue queue = new Queue();
+```
+generic and non generic queue
+
+```cs
 obj is string;
 obj is null;
 obj is IEnumerable;
 ```
 data type check
+
+```cs
+int max = int.MaxValue
+int min = int.MinValue
+```
 
 ```cs
 int[][] jaggedArray = new int[][]
@@ -41,7 +52,7 @@ print rect array, react array is IEnumerable not T
 dictionary1.OrderBy(kvp => kvp.Key)
            .SequenceEqual(dictionary2.OrderBy(kvp => kvp.Key))
 ```
-compare if 2 dict has the same key value pairs
+compare if 2 dict has the same key value pairsq
 
 
 ```cs
