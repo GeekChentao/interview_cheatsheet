@@ -37,6 +37,11 @@ Jagged 2d array with initial values
 Rect 2d array with initial value
 print rect array, react array is IEnumerable not T
 
+```cs
+dictionary1.OrderBy(kvp => kvp.Key)
+           .SequenceEqual(dictionary2.OrderBy(kvp => kvp.Key))
+```
+compare if 2 dict has the same key value pairs
 
 
 ```cs
